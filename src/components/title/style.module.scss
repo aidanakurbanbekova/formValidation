@@ -1,0 +1,56 @@
+.registerWrap {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  .littleTitle{
+    color: #000;
+    text-align: center;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 600;
+  }
+  .title{
+    color: rgba(26, 41, 61, 0.83);
+    text-align: center;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 134%;
+  }
+}
+
+  .line {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px ;
+
+    .line1 {
+      background: rgba(28, 52, 84, 0.26);
+      width: 116px;
+      height: 1px;
+      display: block;
+      margin-right: 15px;
+    }
+
+    .textLine {
+      color: rgba(28, 52, 84, 0.26);
+      text-align: center;
+      font-size: 14px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 134%;
+    }
+
+    .line2 {
+      background: rgba(28, 52, 84, 0.26);
+      width: 106px;
+      height: 1px;
+      display: block;
+      margin-left: 15px;
+    }
+  }
+
+
+

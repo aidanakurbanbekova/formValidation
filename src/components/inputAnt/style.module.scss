@@ -1,0 +1,72 @@
+.wrapBox {
+  display: flex;
+  margin-top: 16px;
+  flex-direction: column;
+
+  .textLine {
+    display: flex;
+
+    .addressEmail {
+      display: flex;;
+      color: rgba(27, 43, 65, 0.72);
+      font-family: 'Plus Jakarta Sans', sans-serif;
+      font-size: 12px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: normal;
+    }
+
+    .star2 {
+      color: red;
+    }
+  }
+
+  .inputAnt {
+    padding: 0 20px 0 20px;
+    outline: inherit;
+    margin-top: 10px;
+    width: 336px;
+    height: 57px;
+    flex-shrink: 0;
+    border-radius: 3px;
+    border: 1px solid rgba(28, 55, 90, 0.16);
+
+    &:hover {
+      border: 1.5px solid #1676F3;
+    }
+  }
+
+
+  .hidden {
+    //display: block;
+    display: flex;
+    justify-content: flex-end;
+    width: 4px;
+    height: 4px;
+    position: absolute;
+    top: 15px;
+    right: 10px;
+    img{
+      position: relative;
+      width: 5px;
+      height: 5px;
+      margin-left: 60%;
+    }
+  }
+
+
+
+  }
+
+  //label {
+  //  margin-top: 16px;
+  //  display: flex;
+  //  justify-content: center;
+  //  flex-direction: column;
+  //  .labelText {
+  //    display: flex;
+  //    margin-bottom: 5px;
+  //  }
+
+
+

@@ -1,0 +1,56 @@
+.wrap {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  .button {
+    display: flex;
+    width: 336px;
+    height: 56px;
+    padding: 8px 14px;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+    border-radius: 4px;
+    background: #1676F3;
+    border: none;
+    margin-top: 22px;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    color: #FFF;
+    text-align: center;
+  }
+
+  .link {
+    display: flex;
+    justify-content: center;
+    margin-top: 33px;
+
+    span {
+      color: #000;
+
+      text-align: center;
+      //font-family: Plus Jakarta Sans;
+      font-size: 13px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 122%;
+    }
+
+    .signUp {
+      color: #1676F3;
+      text-align: center;
+      //font-family: Plus Jakarta Sans;
+      font-size: 13px;
+      font-style: normal;
+      font-weight: 600;
+      line-height: normal;
+      text-decoration: none;
+
+    }
+  }
+
+}
